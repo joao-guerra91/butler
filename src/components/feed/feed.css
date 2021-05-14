@@ -1,0 +1,16 @@
+.feed {
+  flex: 5.5;
+}
+
+.feedWrapper {
+  /* padding: 20px; */
+}
+
+.feedLi {
+  list-style: none;
+}
+
+.feedUl {
+  padding: 0;
+  margin: 20px;
+}
