@@ -1,3 +1,125 @@
 .rightbar {
   flex: 3.5;
+  position: sticky;
+  top: 50px;
 }
+
+/* .rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.whoToFollow {
+width: 100%;
+border-radius: 10px;
+margin: 30px 0;
+} */
+
+.rightbarAdd {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.rightbarTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightbarTitlebtn{
+  margin-right: 20px;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px; 
+}
+
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightbarInfoValue {
+  font-weight: 300;
+}
+
+.whoToFollow {
+  width: 100%;
+  border: solid 1px rgb(194, 191, 191);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.whoToFollowUl {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.whoToFollowList {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.AddToFeedText {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.whoToFollowImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.whoToFollowHr{
+  margin: 20px 0;
+}
+
+.whoToFollowBtn {
+  color: black;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.whoToFollowListWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightbarFollowBtn{
+  margin-right: 20px;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 3px 10px 3px 10px;
+  font-weight: 300;
+} 
+

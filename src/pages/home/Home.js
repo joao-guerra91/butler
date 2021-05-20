@@ -10,7 +10,7 @@ function Home(props) {
       <div className="homeContainer">
         <Leftbar/>
         <Feed {...props}/>
-        <Rightbar/>
+        <Rightbar {...props}/>
       </div>
     </>
   );

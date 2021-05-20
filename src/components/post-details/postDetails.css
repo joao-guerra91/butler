@@ -1,5 +1,6 @@
 .postDetails {
   width: 100%;
+  max-width: 600px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 18px -8px rgba(0,0,0,0.63); 
   box-shadow: 0px 0px 18px -8px rgba(0,0,0,0.63);
@@ -68,4 +69,8 @@
 
 .postDetailsCommentText {
   font-size: 15px;
+}
+
+.postDetailsDropdownBtn {
+  background: none;
 }

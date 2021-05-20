@@ -38,41 +38,42 @@ function Leftbar () {
         </ul>
         <button className="leftbarbutton">See more</button>
         <hr className="leftbarHr"/>
+        <p className="leftbarFollowing">Following:</p>
         <ul className="leftbarFriendList">
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
           <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/kate.jpg" alt=""/>
+            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>
           </li>
 

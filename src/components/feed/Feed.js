@@ -47,10 +47,3 @@ class Feed extends React.Component {
 
 export default Feed;
 
-// <ul>
-// {this.state.posts.map((post) => {
-//   return <li key={post._id}>
-//   <NavLink to={`/posts/${post._id}`}>{post.title}</NavLink>
-//   </li>
-// })}
-// </ul>

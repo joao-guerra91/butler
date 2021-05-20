@@ -1,7 +1,9 @@
 .leftbar {
-  flex: 3;
+  flex: 2.5;
   height: calc(100vh - 50px);
   overflow-y: scroll;
+  position: sticky;
+  top: 50px;
 }
 
 ::-webkit-scrollbar{
@@ -46,6 +48,10 @@
 
 .leftbarHr {
   margin: 20px 0;
+}
+
+.leftbarFollowing {
+  margin-bottom: 10px;
 }
 
 .leftbarFriendList {

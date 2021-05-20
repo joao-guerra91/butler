@@ -1,0 +1,67 @@
+.allUsers {
+  flex: 6;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.allUsersUl {
+  padding: 0;
+  
+}
+.allUsersWrapper {
+  width: 200px;
+  height: 200px;
+  margin: 50px 50px 50px 50px;
+  border: solid 1px rgb(194, 191, 191);
+  border-radius: 10px;
+}
+.allUsersCover{
+  height: 75px;
+}
+.allUsersCoverImg{
+  width: 100%;
+  height: 75px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+.allUsersUserImg{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  left: 67px;
+  bottom: 55px;
+  border: 3px solid white;
+
+}
+.allUsersInfo{
+  display: flex;
+  flex-direction: column;
+}
+.allUsersLi {
+  list-style: none;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+.allUsersLink {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.allUsersFollowBtn{
+  margin-right: 20px;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 3px 10px 3px 10px;
+  font-weight: 300;
+  margin-left: 15px;
+}
+
