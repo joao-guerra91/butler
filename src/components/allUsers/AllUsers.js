@@ -1,12 +1,16 @@
 import React from 'react';
 import './allUsers.css'
-import { getAllUsers } from '../../api';
+import { getAllUsers, follow } from '../../api';
 import { NavLink } from "react-router-dom";
 
 
 class AllUsers extends React.Component {
   state = {
     users: []
+  }
+
+  handleFollowBtn = async () => {
+    await follow(this.state._id)
   }
 
   AllUsersSetState = async () => {

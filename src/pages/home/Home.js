@@ -8,7 +8,7 @@ function Home(props) {
   return (
     <>
       <div className="homeContainer">
-        <Leftbar/>
+        <Leftbar {...props}/>
         <Feed {...props}/>
         <Rightbar {...props}/>
       </div>

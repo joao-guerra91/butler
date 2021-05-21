@@ -9,10 +9,10 @@
   
 }
 .allUsersWrapper {
-  width: 200px;
-  height: 200px;
-  margin: 50px 50px 50px 50px;
-  border: solid 1px rgb(194, 191, 191);
+  width: 250px;
+  height: 250px;
+  margin: 20px 20px 20px 20px;
+  border: solid 2px rgb(194, 191, 191);
   border-radius: 10px;
 }
 .allUsersCover{
@@ -32,7 +32,7 @@
   border-radius: 50%;
   object-fit: cover;
   position: relative;
-  left: 67px;
+  left: 90px;
   bottom: 55px;
   border: 3px solid white;
 

@@ -2,7 +2,8 @@ import React from 'react';
 import './leftbar.css';
 import { RssFeed, HelpOutline, WorkOutline, Event, School, Bookmark, Group  } from '@material-ui/icons'
 
-function Leftbar () {
+function Leftbar ({...props}) {
+  console.log('leftbar props', props)
   return(
     <div className="leftbar">
       <div className="leftbarWrapper">
@@ -40,10 +41,14 @@ function Leftbar () {
         <hr className="leftbarHr"/>
         <p className="leftbarFollowing">Following:</p>
         <ul className="leftbarFriendList">
-          <li className="leftbarFriend">
-            <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
-            <span className="leftbarFriendName">Kate Moss</span>
-          </li>
+        {/* {props.loggedInUser.followings.map((post) => {
+            return(
+              <li className="leftbarFriend">
+                <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
+                <span className="leftbarFriendName">Kate Moss</span>
+              </li>
+            )}
+          )} */}
           <li className="leftbarFriend">
             <img className="leftbarFriendImg" src="/images/blank-profile-picture.png" alt=""/>
             <span className="leftbarFriendName">Kate Moss</span>

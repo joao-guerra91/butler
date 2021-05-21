@@ -61,7 +61,7 @@ class Signup extends React.Component {
                   value={password}
                   onChange={this.handleChange}
                 />
-                <button className="signupButton">Login</button>
+                <button className="signupButton">Sign Up</button>
                 <p>
                   Already have an account?
                   <NavLink to="/login"> Login</NavLink>

@@ -7,8 +7,7 @@ import { getUser } from "../../api";
 import { Dropdown } from 'react-bootstrap'
 import { MoreVert} from '@material-ui/icons'
 import { Modal, Button, Form } from 'react-bootstrap'
-import { updateUser, uploadFile } from "../../api";
-import axios from 'axios';
+import { updateUser, uploadFile, follow } from "../../api";
 
 
 class Profile extends React.Component {
@@ -24,20 +23,9 @@ class Profile extends React.Component {
     service: "",
   };
 
-  // handleFollowBtn = async () => {
-  //   let userId = 
-
-    
-  //   try {
-  //     if(alreadyFollowing) {
-  //       await unfollowing(userId)
-  //     } else {
-  //       await following(userId)
-  //     }
-  //   } catch(e) {
-  //     console.log(e)
-  //   }
-  // }
+  handleFollowBtn = async () => {
+    await follow(this.state._id)
+  }
 
   handleClose = () => {
     this.setState({
@@ -140,7 +128,7 @@ class Profile extends React.Component {
             <div className="profileInfo">
               <h4 className="profileInfoName">{username}</h4>
               <div className="buttons">
-                <button className="ProfileFollowBtn">Follow</button>
+                <button className="ProfileFollowBtn" onClick={this.handleFollowBtn}>Follow</button>
                 <Dropdown>
                   <Dropdown.Toggle variant="light" id="dropdown-basic">
                     <MoreVert />

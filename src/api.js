@@ -75,10 +75,17 @@ export const updateUser = (updatedUser) => {
 
 
 // folowing
-export const following = (id) => {
-  return axios.put(`${baseUrl}/user/${id}/follow`)
+export const follow = (id) => {
+  return axios.put(`${baseUrl}/user/${id}/follow`, null, {withCredentials: true})
 }
 
-export const unfollowing = (id) => {
+export const unfollow = (id) => {
   return axios.put(`${baseUrl}/user/${id}/unfollow`)
 }
+
+//likes
+export const like = (id) => {
+  return axios.put(`${baseUrl}/post/${id}/like`, null, {withCredentials: true})
+}
+
+

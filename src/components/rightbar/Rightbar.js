@@ -5,7 +5,6 @@ import { Dropdown } from 'react-bootstrap'
 import { NavLink } from "react-router-dom";
 
 
-
 function Rightbar (props) {
   const {profile} = props;
 
@@ -48,8 +47,8 @@ function Rightbar (props) {
             </div>
             <hr className="whoToFollowHr"/>
             </li>
-            <NavLink  to="/listusers"><button className="whoToFollowBtn">View all recommendations<ArrowForward/></button></NavLink>
           </ul>
+            <NavLink  to="/listusers"><button className="whoToFollowBtn">View all recommendations<ArrowForward/></button></NavLink>
         </div>
       </>
     )
@@ -93,7 +92,7 @@ function Rightbar (props) {
   return(
     <div className="rightbar">
       <div className="rightbarWrapper">
-        {profile ? <ProfileRightbar {...props}/> : <HomeRightbar/>}
+        {profile ? <ProfileRightbar {...props}/> : <HomeRightbar {...props}/>}
         <img className="rightbarAdd" src="/images/add.png" alt=""/>
       </div>
     </div>

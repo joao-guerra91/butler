@@ -1,14 +1,18 @@
 import React from "react";
 import { MoreVert, Favorite } from '@material-ui/icons'
 import './postDetails.css'
-import { deletePost } from "../../api";
+import { deletePost, like } from "../../api";
 import { Dropdown } from 'react-bootstrap'
 
 class PostDetails extends React.Component {
   state= {
-    likes: 0,
+    _id: "",
+    likes: "",
   }
 
+  handleLikeBtn = async () => {
+    await like(this.state._id)
+  }
 
   handleDeletePost = async (id) => {
     await deletePost(id);
@@ -31,7 +35,6 @@ class PostDetails extends React.Component {
               <Dropdown.Toggle variant="light" id="dropdown-basic">
                 <MoreVert />
               </Dropdown.Toggle>
-
               <Dropdown.Menu>
                 <Dropdown.Item>Follow</Dropdown.Item>
                 <Dropdown.Item onClick={() => this.handleDeletePost(this.props._id)}>Delete post</Dropdown.Item>
